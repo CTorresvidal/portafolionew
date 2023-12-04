@@ -1,0 +1,126 @@
+Microsoft Windows [Versión 10.0.22621.2715]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git init
+Initialized empty Git repository in C:/Users/USUARIO/Desktop/INFO PROGRAM/ACADEMLO/Portafolio/.git/
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git remote add origin https://github.com/CTorresvidal/portafolionew.git
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git add .
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git commit -m "advances"
+[master (root-commit) bb9a343] advances
+ 17 files changed, 876 insertions(+)
+ create mode 100644 assets/css/header.css
+ create mode 100644 assets/css/main.css
+ create mode 100644 assets/css/nav.css
+ create mode 100644 assets/css/style.css
+ create mode 100644 assets/cv/cv_en.png
+ create mode 100644 assets/cv/cv_es.png
+ create mode 100644 assets/img/Banner1.png
+ create mode 100644 assets/img/Banner2.jpg
+ create mode 100644 assets/img/Banner3.jpg
+ create mode 100644 assets/img/Banner4.jpg
+ create mode 100644 assets/img/Banner5.jpg
+ create mode 100644 assets/img/portafolio.png
+ create mode 100644 assets/js/changeLanguage.js
+ create mode 100644 assets/js/changeMode.js
+ create mode 100644 assets/js/progressBar.js
+ create mode 100644 assets/js/responsiveMenu.js
+ create mode 100644 index.html
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git push --set-upstream origin master
+Enumerating objects: 24, done.
+Counting objects: 100% (24/24), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (24/24), done.
+Writing objects: 100% (24/24), 449.57 KiB | 23.66 MiB/s, done.
+Total 24 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/CTorresvidal/portafolionew.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git checkout -b pruebas
+Switched to a new branch 'pruebas'
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git branch
+  master
+* pruebas
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git branch
+* master
+  pruebas
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git checkout pruebas
+Switched to branch 'pruebas'
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git add .
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git commit -m "advances2"
+On branch pruebas
+nothing to commit, working tree clean
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git reset --hard
+HEAD is now at bb9a343 advances
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>code .
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git reset --hard
+HEAD is now at bb9a343 advances
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git add .
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git commit -m "advances2"
+[pruebas 810c000] advances2
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git push --set-upstream origin master
+Everything up-to-date
+branch 'master' set up to track 'origin/master'.
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git branch
+  master
+* pruebas
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git add .
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git commit -m "advances2"
+On branch pruebas
+nothing to commit, working tree clean
+
+C:\Users\USUARIO\Desktop\INFO PROGRAM\ACADEMLO\Portafolio>git push origin pruebas
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 312 bytes | 312.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'pruebas' on GitHub by visiting:
+remote:      https://github.com/CTorresvidal/portafolionew/pull/new/pruebas
+remote:
+To https://github.com/CTorresvidal/portafolionew.git
+ * [new branch]      pruebas -> pruebas
+
+e
+
+git push --set-upstream origin pruebas
+
+
+
+

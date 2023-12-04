@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="./assets/css/header.css" />
     <link rel="stylesheet" href="./assets/css/nav.css" />
     <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/slider.css" />
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
     <meta name="author" content="Carlos Arturo Torres" />
     <meta
@@ -52,7 +55,13 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      href="tel:+573147914981"
+      href="mailto:carlostorres2912@yahoo.com"
+      href="https://wa.me/+573147914981"
+            
     />
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
   </head>
 
   <body class="body body--ligth body--dark">
@@ -78,25 +87,57 @@
 
         <ul class="nav__ul">
           <li class="nav__li">
-            <a href="#home" data-translate-es="Inicio" data-translate-en="Home">Inicio</a>
+            <a href="#home" data-translate-es="Inicio" data-translate-en="Home"
+              >Inicio</a
+            >
           </li>
-          <li class="nav__li"><a href="#aboutMe" data-translate-es="Sobre mí" data-translate-en="About Me">Sobre mí</a>
+          <li class="nav__li">
+            <a
+              href="#aboutMe"
+              data-translate-es="Sobre mí"
+              data-translate-en="About Me"
+              >Sobre mí</a
+            >
           </li>
-          <li class="nav__li"><a href="#technologies" data-translate-es="Tecnologías" data-translate-en="Technologies"
-              >Tecnologías</a>
+          <li class="nav__li">
+            <a
+              href="#technologies"
+              data-translate-es="Tecnologías"
+              data-translate-en="Technologies"
+              >Tecnologías</a
+            >
           </li>
-          <li class="nav__li"><a href="#proyects" data-translate-es="Proyectos" data-translate-en="Proyects">Proyectos</a>
+          <li class="nav__li">
+            <a
+              href="#proyects"
+              data-translate-es="Proyectos"
+              data-translate-en="Proyects"
+              >Proyectos</a
+            >
           </li>
-          <li class="nav__li"><a href="#reviews" data-translate-es="Reseñas" data-translate-en="Reviews">Reseñas</a>
+          <li class="nav__li">
+            <a
+              href="#reviews"
+              data-translate-es="Reseñas"
+              data-translate-en="Reviews"
+              >Reseñas</a
+            >
           </li>
-          <li class="nav__li"><a href="#contacMe" data-translate-es="Contáctame" data-translate-en="Contac Me">Contáctame</a>
+          <li class="nav__li">
+            <a
+              href="#contacMe"
+              data-translate-es="Contáctame"
+              data-translate-en="Contac Me"
+              >Contáctame</a
+            >
           </li>
         </ul>
       </div>
     </nav>
     <header class="header">
       <h1 class="header__h1">Carlos Arturo Torres</h1>
-      <h2 class="header__h2" data-translate-es="Desarrollador Web Full Stack" data-translate-en="Developer Web Full Stack">Desarrollador Web Full Stack</h2>
+      <h2 class="header__h2" data-translate-es="Desarrollador Web Full Stack" data-translate-en="Developer Web Full Stack">
+        Desarrollador Web Full Stack</h2>
 
       <div class="div--contact">
         <a href="contactMe" class="div__a"><span data-translate-es="Contáctame" data-translate-en=" Contact me">Contáctame</span>
@@ -112,77 +153,94 @@
       <section>
         <article id="aboutMe">
           <h2 data-translate-es="Sobre Mí" data-translate-en="AboutMe">Sobre Mí</h2>
-          <p data-translate-es="En mí vas a encontrar a una persona íntegra con un objetivo específico, el cual es desarrollar progresivamente mis habilidades técnicas sin dejar a un lado las habilidades blandas, soy una persona proactiva con determinación y dispuesto a afrontar nuevos retos que me permitan crecer en todos los aspectos de mi vida." data-translate-en="In me you will find a complete person with a goal specific, which is to progressively develop my skills techniques without leaving aside soft skills, I am a proactive person with determination and willing to face new challenges that allow me to grow in all aspects of my life.">
-            "En mí vas a encontrar a una persona íntegra con un objetivo
-            específico, el cual es desarrollar progresivamente mis habilidades
-            técnicas sin dejar a un lado las habilidades blandas, soy una
-            persona proactiva con determinación y dispuesto a afrontar nuevos
-            retos que me permitan crecer en todos los aspectos de mi vida."</p>
-          <h3 class="aboutMe__h3" data-translate-es="¿Porqué soy ideal para tu equipo?" data-translate-en="Why am I ideal for your team?">¿Porqué soy ideal para tu equipo?</h3>
-          <ul class="aboutMe__ul">
-            <li class="aboutMe__li">
-              <i data-translate-es="Facilidad de aprendizaje" data-translate-en="Ease of learning">Facilidad de aprendizaje</i>
+          <p data-translate-es="En mí vas a encontrar a una persona íntegra con un objetivo específico, el cual es desarrollar progresivamente mis habilidades técnicas sin dejar a un lado las habilidades blandas, soy una persona proactiva con determinación y dispuesto a afrontar nuevos retos que me permitan crecer en todos los aspectos de mi vida." data-translate-en="In me you will find a complete person with a goal specific, which is to progressively develop my skills techniques without leaving aside soft skills, I am a proactive person with determination and willing to face new challenges that allow me to grow in all aspects of my life.">"En mí vas a encontrar a una persona íntegra con un objetivo específico, el cual es desarrollar progresivamente mis habilidades técnicas sin dejar a un lado las habilidades blandas, soy una persona proactiva con determinación y dispuesto a afrontar nuevos retos que me permitan crecer en todos los aspectos de mi vida."</p>
+          <h3 class="aboutMe__h3" data-translate-es="¿Porqué soy ideal para tu equipo?" data-translate-en="Why am I ideal for your team?"
+          >¿Porqué soy ideal para tu equipo?</h3>
+          <ul class="aboutMe__ul"><li class="aboutMe__li"><i class="qualities" data-translate-es="Facilidad de aprendizaje" data-translate-en="Ease of learning">Facilidad de aprendizaje</i>
               <span data-translate-es="Siempre me he caracterizado como una persona que aprende los temas de importancia en un tiempo muy reducido, lo cual se transmite en eficiencia y productividad." data-translate-en="I have always characterized myself as a person who learns important topics in a very short time, which is transmitted in efficiency and productivity.">Siempre me he racterizado como una persona que aprende los temas de importancia en un tiempo muy reducido, lo cual se transmite en eficiencia y roductividad.</span>
             </li>
-            <li class="aboutMe__li">
-              <i data-translate-es="Respeto" data-translate-en="I respect">Respeto</i>
+            <li class="aboutMe__li"><i class="qualities" data-translate-es="Respeto" data-translate-en="I respect">Respeto</i>
               <span data-translate-es="Parto siempre de la idea de que el respeto es la base fundamental para el funcionamiento de la sociedad, esto nos permite convivir en cualquier ambiente social y laboral que nos encontremos respetando a los individuos en su forma de pensar y de actuar." data-translate-en="I always start from the idea that respect is the fundamental basis for the functioning of society, this allows us to coexist in any social and work environment that we find ourselves, respecting individuals in their way of thinking and acting.">Parto siempre de la idea de que el respeto es la base fundamental para el funcionamiento de la sociedad, esto nos permite convivir en cualquier ambiente social y laboral que nos encontremos respetando a los individuos en su forma de pensar y de actuar.</span>
             </li>
-            <li class="aboutMe__li">
-              <i data-translate-es="Compromiso" data-translate-en="Commitment">Compromiso</i>
-              <span data-translate-es="Siempre estoy dispuesto a dar lo mejor de mí en pro de lograr los objetivos establecidos dentro de cualquier proyecto, dando prioridad a los logros grupales buscando siempre los mejores resultados." data-translate-en="I am always willing to give my best in order to achieve the established objectives within any project, giving priority to group achievements, always seeking the best results.">Siempre estoy dispuesto a dar lo mejor de mí en pro de lograr los objetivos establecidos dentro de cualquier proyecto, dando prioridad a los logros grupales buscando siempre los mejores resultados.</span>
+            <li class="aboutMe__li"><i class="qualities" data-translate-es="Compromiso" data-translate-en="Commitment">Compromiso</i>
+              <span data-translate-es="Siempre estoy dispuesto a dar lo mejor de mí en pro de lograr los objetivos establecidos dentro de cualquier proyecto, dando prioridad a los logros grupales buscando siempre los mejores resultados."             data-translate-en="I am always willing to give my best in order to achieve the established objectives within any project, giving priority to group achievements, always seeking the best results.">Siempre estoy dispuesto a dar lo mejor de mí en pro de lograr
+                los objetivos establecidos dentro de cualquier proyecto, dando prioridad a los logros grupales buscando siempre los mejores
+                resultados.</span>
             </li>
-            <li class="aboutMe__li">
-              <i data-translate-es="Recursividad" data-translate-en="Recursion">Recursividad</i>
-              <span data-translate-es="Me destaco por ser el tipo de persona que si tiene un reto que impide avanzar en la consecución de un objetivo, buscara de alguna manera resolver la situación para poder seguir avanzando y llegar a la culminación de lo propuesto." data-translate-en="I stand out for being the type of person who, if he or she has a challenge that prevents progress in achieving an objective, will seek to somehow resolve the situation in order to continue moving forward and reach the culmination of what is proposed.">Me destaco por ser el tipo de persona que si tiene un reto que impide avanzar en la consecución de un objetivo, buscara de alguna manera resolver la situación para poder seguir avanzando y llegar a la culminación de lo propuesto.</span>
+            <li class="aboutMe__li"><i class="qualities" data-translate-es="Recursividad" data-translate-en="Recursion">Recursividad</i>
+              <span data-translate-es="Me destaco por ser el tipo de persona que si tiene un reto que impide avanzar en la consecución de un objetivo, buscara de alguna manera resolver la situación para poder seguir avanzando y llegar a la culminación de lo propuesto."
+                data-translate-en="I stand out for being the type of person who, if he or she has a challenge that prevents progress in achieving an objective, will seek to somehow resolve the situation in order to continue moving forward and reach the culmination of what is proposed.">Me destaco por ser el tipo de persona que si tiene un reto que impide avanzar en la consecución de un objetivo, buscara de alguna manera resolver la situación para poder seguir avanzando y llegar a la culminación de lo propuesto.</span>
             </li>
           </ul>
         </article>
 
-        <article id="technologies">
-          <span class="card" data-translate-es="Tecnologías" data-translate-en="Technologies"><h2>Tecnologías</h2></span>
+        <article id="technologies"><span class="card" data-translate-es="Tecnologías" data-translate-en="Technologies"   ><h2>Tecnologías</h2></span>
           <span class="card">HTML</span>
           <span class="card">CSS</span>
           <span class="card">JS</span>
           <span class="card">GITHUB</span>
         </article>
 
-        <!-- <article id="proyects">
-          <h2>Proyectos</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reiciendis neque harum distinctio aliquid,
-            unde, similique assumenda nemo repellendus tenetur, eaque incidunt ea asperiores ullam non. Earum corrupti
-            nulla, modi id quas vitae saepe quae minus fugit itaque corporis unde rerum soluta quidem eos perspiciatis
-            minima repellendus iusto eaque aperiam voluptatibus iure. Quia ut dolorum vel magni, sapiente ducimus!
-            Explicabo
-            at molestiae dignissimos labore assumenda est quo sequi odit consequuntur! Laborum asperiores necessitatibus
-            explicabo et rem molestiae animi eius, optio nesciunt expedita sint quis similique sequi dicta assumenda
-            dolore?
-            Obcaecati quae optio molestias sit tempora quisquam sequi repellendus architecto dignissimos?</p>
+        <article id="proyects" class="article">
+          <h2 class="article__h2">Proyectos</h2>
+          <button class='article__button left'><i class='bx bx-left-arrow-alt'></i></button>
+
+          <ul class='article__ul'>
+
+            <li class='article__li'>
+              <img src='../Portafolio/assets/img/image1.jpg' alt='' class='article__img'>
+            </li>
+
+            <li class='article__li'>
+              <img src='../Portafolio/assets/img/image2.jpg' alt='' class='article__img'>
+            </li>
+
+            <li class='article__li'>
+              <img src='../Portafolio/assets/img/image3.jpg' alt='' class='article__img'>
+            </li>
+
+            <li class='article__li'>
+              <img src='../Portafolio/assets/img/image4.jpg' alt='' class='article__img'>
+            </li>
+
+            <li class='article__li'>
+              <img src='../Portafolio/assets/img/image5.jpg' alt='' class='article__img'>
+            </li>
+          </ul>
+
+          <button class="article__button rigth">
+            <i class='bx bx-right-arrow-alt'></i>
+          </button>
+          
         </article>
-  
+
         <article id="reviews">
           <h2>Reseñas</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti reiciendis neque harum distinctio aliquid,
-            unde, similique assumenda nemo repellendus tenetur, eaque incidunt ea asperiores ullam non. Earum corrupti
-            nulla, modi id quas vitae saepe quae minus fugit itaque corporis unde rerum soluta quidem eos perspiciatis
-            minima repellendus iusto eaque aperiam voluptatibus iure. Quia ut dolorum vel magni, sapiente ducimus!
-            Explicabo
-            at molestiae dignissimos labore assumenda est quo sequi odit consequuntur! Laborum asperiores necessitatibus
-            explicabo et rem molestiae animi eius, optio nesciunt expedita sint quis similique sequi dicta assumenda
-            dolore?
-            Obcaecati quae optio molestias sit tempora quisquam sequi repellendus architecto dignissimos?</p>
-        </article> -->
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+            reiciendis neque harum distinctio aliquid, unde, similique assumenda
+            nemo repellendus tenetur, eaque incidunt ea asperiores ullam non.
+            Earum corrupti nulla, modi id quas vitae saepe quae minus fugit
+            itaque corporis unde rerum soluta quidem eos perspiciatis minima
+            repellendus iusto eaque aperiam voluptatibus iure. Quia ut dolorum
+            vel magni, sapiente ducimus! Explicabo at molestiae dignissimos
+            labore assumenda est quo sequi odit consequuntur! Laborum asperiores
+            necessitatibus explicabo et rem molestiae animi eius, optio nesciunt
+            expedita sint quis similique sequi dicta assumenda dolore? Obcaecati
+            quae optio molestias sit tempora quisquam sequi repellendus
+            architecto dignissimos?
+          </p>
+        </article>
 
         <article id="contacMe">
-          <h2>Contáctame</h2>
-          <div class="contacto">            
-            <ul>
-              <li class="misLogos"><a href="<box-icon type='solid' name='phone-call'></box-icon>"></a>Llámame</li>
-              <li class="misLogos"><a href="<box-icon name='envelope' ></box-icon>"></a>Envía un Correo</li>
-              <li class="misLogos"><a href="<box-icon type='logo' name='whatsapp-square'></box-icon>"></a>Whatssap</li>
-              <li class="misLogos"><a href="<box-icon name='linkedin-square' type='logo' ></box-icon>"></a>LinkedIn</li>
-              <li class="misLogos"><a href="<box-icon name='github' type='logo' ></box-icon>"></a>Github</li>
-            </ul>
+          <h2 data-translate-es="Contáctame" data-translate-en="Contact Me">Contáctame</h2>
+          <p data-translate-es="Me puedes contactar por alguno de los siguientes canales..." data-translate-en="You can contact me through one of these channels...">Me puedes contactar por uno de estos canales...</p>
+          <div class="contacto">
+            <a class="contacto__a" href="tel:+573147914981"><i class="bx bx-phone"></i><span data-translate-es="Llámame" data-translate-en="Call me">Llámame</span></a>
+            <a class="contacto__a" href="mailto:carlostorres2912@yahoo.com"><i class="bx bxl-gmail"></i><span data-translate-es="Correo" data-translate-en="Mail">Correo</span></a>
+            <a class="contacto__a" href="https://wa.me/+573147914981"><i class="bx bxl-whatsapp"></i><span>Whatssap</span></a>
+            <a class="contacto__a"><i class="bx bxl-linkedin"></i><span>LinkedIn</span></a>
+            <a class="contacto__a"><i class="bx bxl-github"></i><span>Github</span></a>
           </div>
         </article>
       </section>
@@ -191,5 +249,6 @@
     <script src="./assets/js/changeLanguage.js"></script>
     <script src="./assets/js/responsiveMenu.js"></script>
     <script src="./assets/js/progressBar.js"></script>
+    <script src="./main.js"></script>
   </body>
 </html>
