@@ -1,21 +1,7 @@
-#proyects{
-  border: 1px solid lightgreen;
-  margin: 0px auto;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 2rem 0;
-  border-radius: 20px;
-}
-
-.article__h2 {
-  margin-bottom: 20px;
-  color: var(--text);
-  font-size: 2.5rem;
+.section__h2 {
+  font-size: 3rem;
   text-align: center;
-  font-weight:bold;
-  text-shadow: 0 0 5px #fff;
+  font-weight: 800;
 }
 
 .article {
@@ -23,25 +9,6 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-}
-
-
-.article__button {
-  position: absolute;
-  transform-origin: 50% 50%;
-  top: 50%;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  font-size: 2rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  z-index: 10;
-  background-color: var(--colorHover);
-  transition: transform 0.3s ease-in-out;
-  cursor: pointer;
 }
 
 .left {
@@ -75,11 +42,87 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  row-gap: 2rem;
 
 }
 
 .article__img {
   width: 70%;
+}
+
+
+.article__p {
+  text-align: center;
+  padding: 0 3rem;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+}
+
+.article__button {
+  position: absolute;
+  transform-origin: 50% 50%;
+  top: 50%;
+  border-radius: 50%;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  z-index: 10;
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  background-color: var(--colorHover);
+  color: var(--colorNav);
+  width: 2rem;
+  height: 2rem;
+}
+
+.article__h4 {
+  font-size: 1rem;
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: var(--morph1);
+  text-align: center;
+}
+
+.article__h3 {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+@media (max-width:950px) {
+  .article {
+    width: 90%;
+  }
+}
+
+@media (max-width:550px) {
+
+  .section--projects {
+    padding: 0;
+  }
+
+  .article {
+    width: 100%;
+  }
+
+  .article__li {
+    padding: 10%;
+  }
+
+  .article__img {
+    width: 100%;
+  }
+
+  .article__p {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+}
+
+.section .article__li:hover {
+  transform: translateY(0);
 }
 
 

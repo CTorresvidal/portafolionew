@@ -1,6 +1,7 @@
 main{
   width: 100;
   height: auto;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
