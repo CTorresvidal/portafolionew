@@ -171,18 +171,6 @@ section{
 }
 
 
-#reviews{
-  border: 1px solid lightgreen;
-  margin: 100px auto;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 2rem 0;
-  border-radius: 20px;
-}
-
-
 #contacMe{
   width: 100%;
   display: flex;
@@ -234,5 +222,7 @@ section{
   align-content: center;
   gap: 10px;
 }
+
+
 
 

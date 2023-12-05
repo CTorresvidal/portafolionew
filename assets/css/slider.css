@@ -1,7 +1,9 @@
 .section__h2 {
-  font-size: 3rem;
-  text-align: center;
-  font-weight: 800;
+  margin: 40px auto;
+  width: 200px;
+  font-weight: bold;
+  font-size: 2.5rem;
+  text-shadow: 0 0 5px #fff;
 }
 
 .article {
