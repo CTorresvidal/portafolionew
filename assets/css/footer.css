@@ -50,10 +50,36 @@
   padding: 80px;
 }
 
+.bx bx-map{
+  font-style: var(--colorNav);
+}
+.bx bxl-linkedin-square{
+  font-style: var(--colorNav);
+}
+.bx bxl-whatsapp{
+  font-style: var(--colorNav);
+}
+.bx bxl-github{
+  font-style: var(--colorNav);
+}
+
 @media (max-width:550px) {
   .footer {
     width: 100%;
     flex-direction: column;
     display: flex;
   }
+}
+
+.bx bx-map{
+  font-style: var(--colorNav);
+}
+.bx bxl-linkedin-square{
+  font-style: var(--colorNav);
+}
+.bx bxl-whatsapp{
+  font-style: var(--colorNav);
+}
+.bx bxl-github{
+  font-style: var(--colorNav);
 }
