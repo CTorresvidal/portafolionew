@@ -223,6 +223,18 @@ section{
   gap: 10px;
 }
 
+@media (max-width: 550px){
+  #technologies {
+    border: none;
+    margin: 100px auto;
+    width: 80%;
+    height: auto;
+    display: block;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: center;    
+  }   
+}
 
 
 
